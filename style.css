@@ -108,10 +108,23 @@ body{
     border: none;
 }
 
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 #Remember{
     color: white;
     font-family:"poppins";
-    font-size: 12px;
+    font-size: 0.9rem;
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
 }
 
 .btn{
